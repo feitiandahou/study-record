@@ -1,0 +1,1 @@
+"""Binary search demo package."""

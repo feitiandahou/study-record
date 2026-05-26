@@ -1,0 +1,158 @@
+:root {
+  font-family: Georgia, 'Noto Serif SC', serif;
+  color: #0f172a;
+  background:
+    linear-gradient(135deg, rgba(255, 243, 214, 0.8), rgba(220, 252, 231, 0.55)),
+    linear-gradient(180deg, #fffdf8 0%, #eef6ff 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.gallery-page {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 36px 0 56px;
+}
+
+.gallery-hero,
+.results-panel {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.gallery-hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 24px;
+  padding: 30px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #b45309;
+  font-size: 0.75rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.4rem, 4vw, 4.4rem);
+  line-height: 0.95;
+}
+
+.lead {
+  max-width: 48ch;
+  color: #475569;
+  font-size: 1rem;
+}
+
+.control-panel {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+}
+
+.segment-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.segment {
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background: white;
+  cursor: pointer;
+}
+
+.segment.active {
+  background: #0f172a;
+  color: white;
+}
+
+.search-box {
+  display: grid;
+  gap: 8px;
+  color: #334155;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  background: rgba(248, 250, 252, 0.85);
+}
+
+.results-panel {
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.status-banner {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.16), rgba(14, 165, 233, 0.12));
+  color: #334155;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.gallery-card {
+  padding: 20px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.gallery-card h3 {
+  margin: 10px 0 8px;
+  font-size: 1.3rem;
+}
+
+.gallery-card p {
+  margin: 0;
+  color: #475569;
+}
+
+.chip {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 900px) {
+  .gallery-hero,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
