@@ -16,6 +16,7 @@ This directory contains independent Python study modules.
 - `basics/10-comprehension-demo`: transform collections with comprehensions.
 - `fastapi/01-jwt-demo`: minimal JWT login and bearer token flow.
 - `fastapi/02-websocket-demo`: minimal WebSocket connect and echo flow.
+- `fastapi/03-kafka-demo`: minimal Kafka producer and consumer integration flow.
 
 ## With uv
 
