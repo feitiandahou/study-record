@@ -17,6 +17,9 @@ This directory contains independent Python study modules.
 - `fastapi/01-jwt-demo`: minimal JWT login and bearer token flow.
 - `fastapi/02-websocket-demo`: minimal WebSocket connect and echo flow.
 - `fastapi/03-kafka-demo`: minimal Kafka producer and consumer integration flow.
+- `fastapi/04-background-tasks-demo`: compare in-process background jobs with simple task tracking.
+- `fastapi/05-sqlmodel-crud-demo`: build a typed CRUD API with FastAPI and SQLModel.
+- `fastapi/06-celery-demo`: enqueue and inspect distributed background jobs with Celery.
 
 ## With uv
 
