@@ -20,6 +20,7 @@ This directory contains independent Python study modules.
 - `fastapi/04-background-tasks-demo`: compare in-process background jobs with simple task tracking.
 - `fastapi/05-sqlmodel-crud-demo`: build a typed CRUD API with FastAPI and SQLModel.
 - `fastapi/06-celery-demo`: enqueue and inspect distributed background jobs with Celery.
+- `fastapi/07-celery-beat-demo`: run Celery workers with Redis and a beat-driven periodic heartbeat task.
 
 ## With uv
 
