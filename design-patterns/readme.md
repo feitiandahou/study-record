@@ -7,6 +7,8 @@ This directory contains small, focused design pattern examples.
 - `01-strategy-demo`: choose different discount strategies at runtime.
 - `02-observer-demo`: notify multiple listeners when an order status changes.
 - `03-factory-method-demo`: let concrete generators choose different report serializers.
+- `04-adapter-demo`: adapt a legacy SMS gateway to a common alert sender interface.
+- `05-command-demo`: wrap text editor actions as commands with undo support.
 
 ## With uv
 
@@ -24,6 +26,18 @@ uv run python -m app.main
 
 ```powershell
 cd design-patterns/03-factory-method-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/04-adapter-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/05-command-demo
 uv sync
 uv run python -m app.main
 ```
