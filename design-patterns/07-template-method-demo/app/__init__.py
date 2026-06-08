@@ -1,0 +1,1 @@
+"""Template method pattern demo package."""

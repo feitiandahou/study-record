@@ -9,6 +9,8 @@ This directory contains small, focused design pattern examples.
 - `03-factory-method-demo`: let concrete generators choose different report serializers.
 - `04-adapter-demo`: adapt a legacy SMS gateway to a common alert sender interface.
 - `05-command-demo`: wrap text editor actions as commands with undo support.
+- `06-decorator-demo`: layer notification features like SMS and audit logging around a base sender.
+- `07-template-method-demo`: keep a fixed deployment checklist while letting channels format the final summary differently.
 
 ## With uv
 
@@ -38,6 +40,18 @@ uv run python -m app.main
 
 ```powershell
 cd design-patterns/05-command-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/06-decorator-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/07-template-method-demo
 uv sync
 uv run python -m app.main
 ```
