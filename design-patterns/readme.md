@@ -11,6 +11,10 @@ This directory contains small, focused design pattern examples.
 - `05-command-demo`: wrap text editor actions as commands with undo support.
 - `06-decorator-demo`: layer notification features like SMS and audit logging around a base sender.
 - `07-template-method-demo`: keep a fixed deployment checklist while letting channels format the final summary differently.
+- `08-state-demo`: move a publishing workflow through draft, review, and published states.
+- `09-chain-of-responsibility-demo`: route support tickets through specialized handlers until one can resolve them.
+- `08-state-demo`: move an order through draft, paid, and shipped states while changing allowed actions.
+- `09-chain-of-responsibility-demo`: pass support tickets through a handler chain until the right owner resolves them.
 
 ## With uv
 
@@ -52,6 +56,30 @@ uv run python -m app.main
 
 ```powershell
 cd design-patterns/07-template-method-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/08-state-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/09-chain-of-responsibility-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/08-state-demo
+uv sync
+uv run python -m app.main
+```
+
+```powershell
+cd design-patterns/09-chain-of-responsibility-demo
 uv sync
 uv run python -m app.main
 ```
