@@ -9,6 +9,8 @@ This directory contains small, focused algorithm examples.
 - `03-quick-sort-demo`: sort a list with recursive quick sort.
 - `04-bfs-demo`: find the shortest path in an unweighted graph with BFS.
 - `05-knapsack-demo`: compute the best 0/1 knapsack value with dynamic programming.
+- `06-dfs-demo`: traverse a graph in depth-first order.
+- `07-dijkstra-demo`: find the lowest-cost path in a weighted graph.
 
 ## With uv
 
