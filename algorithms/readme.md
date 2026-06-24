@@ -11,6 +11,8 @@ This directory contains small, focused algorithm examples.
 - `05-knapsack-demo`: compute the best 0/1 knapsack value with dynamic programming.
 - `06-dfs-demo`: traverse a graph in depth-first order.
 - `07-dijkstra-demo`: find the lowest-cost path in a weighted graph.
+- `08-merge-sort-demo`: sort a list with divide-and-conquer merge sort.
+- `09-topological-sort-demo`: produce a topological order of a DAG with Kahn's algorithm.
 
 ## With uv
 
