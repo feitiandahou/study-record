@@ -13,6 +13,8 @@ This directory contains small, focused algorithm examples.
 - `07-dijkstra-demo`: find the lowest-cost path in a weighted graph.
 - `08-merge-sort-demo`: sort a list with divide-and-conquer merge sort.
 - `09-topological-sort-demo`: produce a topological order of a DAG with Kahn's algorithm.
+- `10-union-find-demo`: maintain dynamic connectivity with disjoint set union.
+- `11-kruskal-demo`: build a minimum spanning tree with Kruskal's algorithm.
 
 ## With uv
 
