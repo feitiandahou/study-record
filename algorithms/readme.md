@@ -15,6 +15,8 @@ This directory contains small, focused algorithm examples.
 - `09-topological-sort-demo`: produce a topological order of a DAG with Kahn's algorithm.
 - `10-union-find-demo`: maintain dynamic connectivity with disjoint set union.
 - `11-kruskal-demo`: build a minimum spanning tree with Kruskal's algorithm.
+- `12-prim-demo`: build a minimum spanning tree with Prim's algorithm.
+- `13-bellman-ford-demo`: compute shortest paths with Bellman-Ford and detect negative cycles.
 
 ## With uv
 
